@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebApplication5.Business
 {
+    [ScopedService]
     public class MemberClaimBusiness
     {
         private const string claimsPath = @"../WebApplication5/CSVs/Claim.csv";
